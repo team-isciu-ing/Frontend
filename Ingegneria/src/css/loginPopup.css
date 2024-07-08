@@ -1,0 +1,76 @@
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  box-shadow: 24px;
+  padding: 16px;
+  color: #000000;
+}
+
+.text-field-style .MuiInputBase-root {
+  background-color: #e3f2fd;
+  color: #000000;
+}
+
+.text-field-style .MuiInputLabel-root {
+  color: #000000;
+}
+
+.text-field-style .MuiOutlinedInput-root fieldset {
+  border-color: #1976d2;
+}
+
+.text-field-style .MuiOutlinedInput-root:hover fieldset {
+  border-color: #1565c0;
+}
+
+.text-field-style .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #0d47a1;
+}
+
+.icon-button-close {
+  color: #000000;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.typography-title {
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.typography-body {
+  margin-bottom: 24px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.typography-footer {
+  color: #000000;
+}
+
+.button-toggle {
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+.button-submit {
+  margin-top: 16px;
+  background-color: #1976d2;
+  color: #ffffff;
+}
